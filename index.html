@@ -22,22 +22,17 @@
   <body>
 
     <!--HEADER -->
-    <header class="page-header">
+   <header class="page-header">
       <div class="container header-container-new">
-        <nav class="header-container">
+        <nav class="header-container" >
           <a href="" class="link web">Web<span class="logo-studio">Studio</span></a>
          <!-- Site nav -->
          <ul class="nav list">
-            <li class="item">
-              <a href="" class="link current">Студія</a></li>
-            <li class="item">
-              <a href="./portfolio.html" class="link site-nav">Портфоліо</a></li>
-            <li class="item">
-              <a href="" class="link site-nav">Контакти</a></li>
-         </ul>
+          <li class="item"><a href="./index.html" class="link site-nav">Студія</a></li>
+          <li class="item"><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+          <li class="item"><a href="" class="link site-nav">Контакти</a></li>
+       </ul>
         </nav>
-
-
       <div class="contact">
 
           <!-- Contact -->
@@ -57,13 +52,16 @@
           </ul>
       </div>
     </header>
+
+
+
     <main>
 
       <!--HERO-->
       <section class="hero">
         <div class="container">
-          <div class="hero-content">
-            <h1 class="hero-title">Ефективні рішення для <br />вашого бізнесу</h1>
+          <div class="hero__content">
+            <h1 class="hero__title">Ефективні рішення для <br />вашого бізнесу</h1>
       
             <button type="button" class="button primary" data-modal-open>Замовити послугу</button>
           </div>
@@ -73,49 +71,52 @@
 
 
       <!--SECTION-->
-      <section class="section">
+      <section class="card">
         <div class="container">
-          <h2 class="section-title visually-hidden ">Наші переваги</h2>
-          <ul class="list section-photo">
-            <li class="item-section">
-              <div class="item-section-new">
-              <svg class="section-icon" width="70px" height="70px">
+          <h2 class="card-list__title visually-hidden">Наші переваги</h2>
+          <ul class="list card-list">
+           
+            <li class="card-list__item">
+              <div class="card-list__section">
+              <svg class="card-list__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#icon-antenna-1"></use>
               </svg>
             </div>
-              <h3 class="section-title">Увага до деталей</h3>
-              <p class="text">
+              <h3 class="card-list__title">Увага до деталей</h3>
+              <p class="card-list__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
+
             <li class="item-section">
-              <div class="item-section-new">
-              <svg class="section-icon" width="70px" height="70px">
+              <div class="card-list__section">
+              <svg class="card-list__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#icon-clock-1"></use>
               </svg>
             </div>
-              <h3 class="section-title">Пунктуальність</h3>
-              <p class="text">
+              <h3 class="card-list__title">Пунктуальність</h3>
                 Завдання організації, обливо рамки і місце навчання кадрів тягне у себе.
               </p>
+
             </li>
             <li class="item-section">
-              <div class="item-section-new">
-              <svg class="section-icon" width="70px" height="70px">
+              <div class="card-list__section">
+              <svg class="card-list__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#icon-diagram-1"></use>
               </svg>
             </div>
-              <h3 class="section-title">Планування</h3>
-              <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
+              <h3 class="card-list__title">Планування</h3>
+              <p class="card-list__text">Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
+
             <li class="item-section">
-              <div class="item-section-new">
-              <svg class="section-icon" width="70px" height="70px">
+              <div class="card-list__section">
+              <svg class="card-list__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#icon-astronaut-1"></use>
               </svg>
             </div>
-              <h3 class="section-title">Сучасні технології</h3>
-              <p class="text">
+              <h3 class="card-list__title">Сучасні технології</h3>
+              <p class="card-list__text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
@@ -124,29 +125,25 @@
       </section>
 
 
-
-
-
-
       <!-- Work -->
-      <section class="work">
+      <section class="picture">
         <div class="container">
-          <div class="work-content">
-            <h2 class="work-title">Чим ми займаємося</h2>
-            <ul class="list work-photo">
-              <li class="work-img">
+          <div class="picture__content">
+            <h2 class="picture__title">Чим ми займаємося</h2>
+            <ul class="list picture-list">
+              <li class="picture-list__img">
                 <div class="thumb">
                 <img src="images/img_1.jpg" alt="клавіатура" width="370" />
-                <h3 class="work-title-img">Десктопні додатки</h3>
+                <h3 class="picture-list__title">Десктопні додатки</h3>
               </div>
               </li>
-              <li class="work-img">
+              <li class="picture-list__img">
                 <img src="images/img_2.jpg" alt="телефон" width="370" />
-                <h3 class="work-title-img">Мобільні додатки</h3>
+                <h3 class="picture-list__title">Мобільні додатки</h3>
               </li>
-              <li class="work-img">
+              <li class="picture-list__img">
                 <img src="images/img_3.jpg" alt="планшет" width="370" />
-                <h3 class="work-title-img">Дизайнерські рішення</h3>
+                <h3 class="picture-list__title">Дизайнерські рішення</h3>
               </li>
             </ul>
           </div>
